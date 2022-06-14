@@ -1,0 +1,22 @@
+{
+  "name": "template_chall_eth_solver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "barsa2000",
+  "license": "MIT",
+  "scripts": {
+    "attack": "yarn hardhat run scripts/attack.js --network",
+    "test": "yarn hardhat run scripts/attack.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/hardhat-upgrades": "^1.18.1",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.9",
+    "hardhat-dependency-compiler": "^1.1.3"
+  }
+}
